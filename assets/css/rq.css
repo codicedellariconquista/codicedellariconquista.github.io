@@ -57,7 +57,7 @@
 
 
 .rq-outside-cta{display:none;padding:24px 24px 0;text-align:center}
-.rq-revealed .rq-outside-cta{display:block}
+.rq-revealed .rq-outside-cta{display:block;background:#000;padding:16px 24px 18px}
 .rq-anchor{display:inline-block;box-sizing:border-box;background:#51ed0e;color:#fff;border-radius:6px;font:700 18px/150% Inter,Arial,sans-serif;padding:12px 24px;text-decoration:none;text-align:center;box-shadow:3px 3px 3px #000000bf;transition:background-color .2s ease-in-out;animation:rq-pulse .8s infinite}
 .rq-anchor:hover{background:#27930d;color:#fff}
 @keyframes rq-pulse{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}
