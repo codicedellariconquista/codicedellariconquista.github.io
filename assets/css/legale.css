@@ -1,0 +1,16 @@
+/* Pagine /termini/ e /privacy/: stesso fondo e stesso logo della LP B, testo largo e leggibile. */
+html,body{margin:0;background:hsl(30 20% 95%);color:#120d0d;font:17px/1.65 Roboto,Arial,sans-serif}
+body{min-height:100%}
+.legal-wrap{max-width:40rem;margin:0 auto;padding:8px 20px 48px}
+.legal-brand a{color:inherit;text-decoration:none}
+.legal h1{font:700 1.7rem/1.25 "STIX Two Text",Georgia,serif;margin:1.6rem 0 .35rem}
+.legal .updated{margin:0 0 1.6rem;color:#4a4541;font-size:.92rem}
+.legal h2{font:700 1.15rem/1.35 "STIX Two Text",Georgia,serif;margin:1.6rem 0 .45rem}
+.legal p,.legal li{margin:0 0 .8rem}
+.legal ul{margin:0 0 .8rem;padding-left:1.2rem}
+.legal a{color:#8a1020;text-decoration:underline}
+.legal a:hover{opacity:.75}
+.legal-foot{margin-top:2.4rem;padding-top:1.2rem;border-top:1px solid #d9d0c7;text-align:center;color:#4a4541;font-size:.92rem}
+.legal-foot p{margin:0 0 .6rem}
+.legal-foot nav{display:flex;justify-content:center;flex-wrap:wrap;gap:.4rem 1.2rem}
+.legal-note{margin-top:1.8rem;color:#4a4541;font-size:.88rem}
