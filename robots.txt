@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /leggi/
+Disallow: /grazie/
