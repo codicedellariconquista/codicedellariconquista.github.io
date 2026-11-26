@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="icon" href="data:," />
+  <title>Il Codice della Riconquista</title>
+  <!-- PIXEL 4807982592768187 (o mesmo das LPs). PageView aqui; ViewContent no início do quiz (mesmo eventID vc.<sessão> das LPs, com rq_variant quiz via quiz.js).
+       QuizStep / QuizComplete como trackCustom. Respostas no painel via data-lab-quiz / data-lab-pergunta (evento qz do script do painel).
+       InitiateCheckout fica nas LPs /yt/ e /v/ (rq-core.js). NUNCA fbq('track','Purchase'). -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '4807982592768187');
+  fbq('track', 'PageView', { rq_variant: 'quiz' });
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=4807982592768187&ev=PageView&noscript=1" alt="" /></noscript>
+  <!-- LABOFERTAS: script de visitas logo DEPOIS do pixel (o mesmo das LPs). O VC da CAPI sai neste pv. -->
+  <script async src="https://painel.labofertas.com/api/lp/script?k=44a44960c19e8820418c931b56392687"></script>
+  <link rel="stylesheet" href="../assets/css/fonts.css" />
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+<div id="rq" class="quiz" data-lab-quiz="reconquista-it-quiz-v1">
+<div class="wrap">
+  <div class="qtop"><div class="k">C</div>Il Codice della Riconquista</div>
+  <div class="qprog" id="rq-prog" hidden>
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0" aria-label="Avanzamento"><i id="rq-bar"></i></div>
+    <span class="qstep" id="rq-qstep"></span>
+  </div>
+
+  <!-- INTRO -->
+  <section class="step on intro" data-step="intro">
+    <span class="eyebrow">Test di 1 minuto</span>
+    <h1>Prima di mandarle qualsiasi messaggio, <span class="gold">scopri in che fase siete</span></h1>
+    <p class="lead">Lo stesso messaggio che in una fase vi riavvicina, in un'altra può allontanarla per sempre. Rispondi a 6 domande veloci e scopri cosa fare — e cosa <strong>non</strong> fare — adesso.</p>
+    <div class="hero"><picture><source type="image/webp" srcset="../assets/img/produto/mockup.webp"><img src="../assets/img/produto/mockup.png" alt="Il Codice della Riconquista" width="800" height="800"></picture></div>
+    <button class="btn pulse" type="button" data-go="1">Inizia il test ›</button>
+    <div class="badges"><span data-qi="clock">1 minuto</span><span data-qi="lock">Anonimo</span><span data-qi="circle-check">Risultato immediato</span></div>
+    <p class="warn">Riservato ai maggiori di 18 anni. Contenuto sulla comunicazione rispettosa — niente giochetti, niente insistenza.</p>
+  </section>
+
+  <!-- DOMANDE (geradas pelo script a partir de quiz-data.js) -->
+  <div id="rq-qs"></div>
+
+  <!-- CARICAMENTO -->
+  <section class="step loading" data-step="loading">
+    <div class="spin"></div>
+    <h2>Sto analizzando le tue risposte…</h2>
+    <ul style="margin-top:18px">
+      <li>Tempo trascorso dalla rottura</li>
+      <li>Com'è il canale di contatto</li>
+      <li>Cosa è successo tra voi</li>
+      <li>Preparo il tuo prossimo passo</li>
+    </ul>
+  </section>
+
+  <!-- RISULTATO -->
+  <section class="step res" data-step="result">
+    <div style="text-align:center"><span class="res-chip" id="rq-chip">La tua fase</span></div>
+    <h1 id="rq-rtitle" style="text-align:center"></h1>
+    <div class="meter"><span></span><span></span><span></span><span></span></div>
+    <div class="meter-l"><span>Bloccata</span><span>Fredda</span><span>Amichevole</span><span>Con un altro</span></div>
+    <div class="card box"><h3 data-qi="compass">Cosa sta succedendo</h3><p id="rq-rwhat"></p></div>
+    <div class="card box yes"><h3 data-qi="check">Cosa fare adesso</h3><p id="rq-rdo"></p></div>
+    <div class="card box no"><h3 data-qi="x">Cosa NON fare</h3><p id="rq-rdont"></p></div>
+    <div class="notes" id="rq-rnotes"></div>
+    <div class="bridge">
+      <p>Il metodo <strong>Il Codice della Riconquista</strong> di Henrico Feraz ha il passo dopo passo per la tua situazione: le tre fasi Recupero, Riaccensione e Riattrazione, il modello del messaggio riparatore da adattare e come rispondere quando lei ti risponde.</p>
+    </div>
+    <a class="btn pulse" id="rq-tooffer" href="../yt/">Guarda il video per la tua fase ›</a>
+    <p class="micro">Vedrai come funziona il metodo prima di decidere.</p>
+  </section>
+</div>
+<footer class="foot"><div class="wrap">
+  <p><strong>Contenuto riservato ai maggiori di 18 anni.</strong> Il Codice della Riconquista è un materiale educativo sulla comunicazione nelle relazioni. Non è terapia né consulenza psicologica o legale. Ogni storia è unica: i risultati variano e nessun messaggio garantisce che qualcuno torni. Rispetta sempre la decisione e i limiti dell'altra persona. Il metodo non insegna ad aggirare i blocchi né a insistere con chi ha chiesto distanza.</p>
+  <p>Questo sito non è affiliato a Facebook, Instagram, WhatsApp o Meta Platforms, Inc., né è approvato da queste aziende. Facebook, Instagram e WhatsApp sono marchi registrati di Meta Platforms, Inc.</p>
+  <p>© 2026 Il Codice della Riconquista</p>
+  <nav><a href="/termini/">Termini d'uso</a><a href="/privacy/">Informativa sulla privacy</a></nav>
+</div></footer>
+</div>
+<script src="../assets/js/rq-config.js"></script>
+<script src="quiz-icons.js"></script>
+<script src="quiz-data.js"></script>
+<script src="quiz.js"></script>
+</body>
+</html>
