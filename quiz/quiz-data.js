@@ -1,6 +1,6 @@
 /* Quiz Reconquista IT: perguntas, fases e notas.
    Usado por /quiz/ (perguntas + resultado).
-   Copy it-IT (R1–R8 e botão) aplicada da bozza do Copywriter; NON revisionata da madrelingua. */
+   Copy it-IT (R1 a R8 e botão) aplicada da bozza do Copywriter; NON revisionata da madrelingua. */
 window.RQ_QUIZ = (function () {
   var QS = [
     {k:'tempo',t:'Da quanto tempo vi siete lasciati?',h:'Scegli l\'opzione più vicina.',o:[
@@ -26,12 +26,12 @@ window.RQ_QUIZ = (function () {
       do:'Ridurre la pressione. Pochi messaggi, brevi, senza pretese e senza parlare della relazione. Un buon messaggio seguito dal silenzio vale più di dieci di fila.',
       dont:'Chiederle "perché non mi rispondi?", mandare tanti messaggi di fila, papiri a notte fonda, aprire discussioni sulla relazione per messaggio.'},
     amigavel:{n:'Amichevole',i:2,title:'Siete nella fase <span class="gold">Amichevole</span>',
-      what:'Ti parla, è gentile e a volte anche scherzosa. È la fase con più possibilità di riavvicinamento — e anche la più facile da rovinare per colpa dell\'ansia.',
+      what:'Ti parla, è gentile e a volte anche scherzosa. È la fase con più possibilità di riavvicinamento, e anche la più facile da rovinare per colpa dell\'ansia.',
       do:'Costruire conversazioni belle e brevi, senza fretta di "tornare insieme". Quando ci sono già state alcune conversazioni leggere, proporle un incontro semplice, con giorno e luogo, lasciandole una via d\'uscita facile.',
       dont:'Trasformare ogni conversazione in una discussione sulla relazione, chiederle di tornare insieme per messaggio, pretendere risposte o mostrarti geloso.'},
     outro:{n:'Con un altro',i:3,title:'Siete nella fase <span class="gold">Con un altro</span>',
       what:'Si sta frequentando con un\'altra persona. Questo cambia tutto: la priorità diventa il rispetto e la dignità, non la riconquista attiva.',
-      do:'Fare un passo indietro ed essere una presenza tranquilla e matura — oppure nessuna presenza. Prenderti cura di te. Se è lei a scriverti, ci sono risposte giuste per non sembrare bisognoso né rancoroso.',
+      do:'Fare un passo indietro ed essere una presenza tranquilla e matura, oppure nessuna presenza. Prenderti cura di te. Se è lei a scriverti, ci sono risposte giuste per non sembrare bisognoso né rancoroso.',
       dont:'Parlare male di lui, fare paragoni, cercare di farla ingelosire, scriverle quando sai che è con lui.'}
   };
   /* Lógica do modelo, igual: a ordem decide. */

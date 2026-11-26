@@ -1,4 +1,4 @@
-/* Quiz Reconquista IT — visual do modelo (vinho + dourado) com as fontes das nossas LPs (STIX Two Text nos títulos, Inter no texto). */
+/* Quiz Reconquista IT com visual do modelo (vinho + dourado) com as fontes das nossas LPs (STIX Two Text nos títulos, Inter no texto). */
 html,body{margin:0;background:#0A0A0B}
 #rq,#rq *{box-sizing:border-box;margin:0;padding:0}
 #rq{--red:#8E0E1C;--red2:#B3121F;--deep:#4A0710;--black:#0A0A0B;--ink:#140809;--card:#1A0F11;--line:#3b2326;--gold:#D4AF61;--gold2:#F1D58C;--cream:#F6EFE3;--muted:#c9b9b2;
@@ -91,3 +91,12 @@ html,body{margin:0;background:#0A0A0B}
 
 /* Rodapé: links sem modal (iguais às LPs) */
 #rq .foot nav a{cursor:pointer}
+
+/* Intro compacta: botão visível na primeira tela (390x664, 375x600) sem scroll */
+#rq .qtop{padding:10px 0 2px}
+#rq .intro{padding-top:8px}
+#rq .intro h1{font-size:clamp(25px,7vw,34px);margin:12px 0 10px}
+#rq .intro .lead{font-size:16px;line-height:1.45;margin-bottom:14px}
+#rq .intro .hero{margin:18px auto 0;max-width:260px}
+#rq .intro .hero img{padding:4px 0}
+#rq .intro .badges{margin:12px 0 4px}
