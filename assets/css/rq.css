@@ -1,7 +1,10 @@
 
-.rq-player{display:block;width:100%;margin:0 auto;position:relative;background:#000}
-.rq-ratio{position:relative;width:100%;padding:177.77777777777777% 0 0;z-index:0;background-color:#000;overflow:hidden}
-.rq-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000;z-index:1}
+.rq-player{display:block;width:100%;margin:0 auto;position:relative;background-color:#000;background-image:url('../video/vsl-it-v7.jpg');background-image:image-set(url('../video/vsl-it-v7.webp') type('image/webp'),url('../video/vsl-it-v7.jpg') type('image/jpeg'));background-size:cover;background-position:center top}
+.rq-ratio{position:relative;width:100%;aspect-ratio:9/16;z-index:0;background-color:#000;background-image:url('../video/vsl-it-v7.jpg');background-image:image-set(url('../video/vsl-it-v7.webp') type('image/webp'),url('../video/vsl-it-v7.jpg') type('image/jpeg'));background-size:cover;background-position:center top;overflow:hidden}
+@supports not (aspect-ratio:9/16){.rq-ratio{aspect-ratio:auto;padding:177.77777777777777% 0 0;height:0}}
+.rq-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:transparent;z-index:1}
+.rq-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2;pointer-events:none;display:block}
+.rq-player.rq-has-frame .rq-poster{visibility:hidden}
 .rq-surface{position:absolute;inset:0;cursor:pointer;z-index:2}
 .rq-fakebar{position:absolute;left:0;bottom:0;height:10px;width:0;background:#ff0000;opacity:.8;z-index:5;pointer-events:none;transition:width .1s ease;display:block}
 .rq-fakebar[hidden]{display:none}
@@ -58,8 +61,8 @@
 .rq-anchor{display:inline-block;box-sizing:border-box;background:#51ed0e;color:#fff;border-radius:6px;font:700 18px/150% Inter,Arial,sans-serif;padding:12px 24px;text-decoration:none;text-align:center;box-shadow:3px 3px 3px #000000bf;transition:background-color .2s ease-in-out;animation:rq-pulse .8s infinite}
 .rq-anchor:hover{background:#27930d;color:#fff}
 @keyframes rq-pulse{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}
-.rq-player{background:transparent}
-.rq-ratio{background:#000}
+.rq-player{background-color:transparent}
+.rq-ratio{background-color:transparent}
 .rq-comment[hidden],.comments-more-wrap[hidden]{display:none!important}
 
 
